@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PERSONAL DIARY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="text-center">
+        <h1>My Diary</h1>
+    </header>
+
+    <div class="container text-center">
+        <form id="entryform">
+            <label class="title">Entry Title</label>
+                <input type="text" name="title" class="entry-title" placeholder="Title of entry...">
+            <label class="entry">Today's Entry</label><br>
+                <textarea id="dailyentry" class="text-box" placeholder="What's your thoughts today?..."></textarea>
+            <div>
+                <button class="btn-main submit-btn" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="container">
+        <div class="entryresultrow"></div>
+    </div>
+<script src="/script.js"></script>
+</body>
+</html>
